@@ -17,7 +17,16 @@ h1{
 }
 
 .quadrado{
-    padding: 100;
+    padding: 50;
     margin: 20;
-    background-color: rgb(90, 7, 7);
+    background-color: rgb(73, 9, 126);
+    border-radius: 30px;
+    height: 1px;
+    width: 100px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    margin: 200px;
 }
