@@ -1,0 +1,16 @@
+#navbar{
+    background-color: rgb(126, 9, 9);
+    padding: 30px 20px;
+    text-align: center;
+    color: aliceblue;
+    margin: 0%;
+}
+
+body{
+    padding: 0px;
+    margin: 0;
+}
+
+h1{
+    font-family: "Archivo Black", sans-serif;
+}
