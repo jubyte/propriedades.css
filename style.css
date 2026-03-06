@@ -4,6 +4,7 @@
     text-align: center;
     color: aliceblue;
     margin: 0%;
+    margin-bottom: 50px;
 }
 
 body{
@@ -28,5 +29,12 @@ h1{
 .flex{
     display: flex;
     justify-content: center;
-    margin: 200px;
+    margin-bottom: 200px;
+    margin-top: 50px;
+}
+
+h3{
+    text-align: center;
+    color: aliceblue;
+    font-family: "Archivo Black", sans-serif;
 }
