@@ -56,3 +56,30 @@ footer{
     background-color: rgb(73, 9, 126);
 padding: 10;
 }
+
+.flex-exemplo{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.inline-flex{
+    display: inline-flex;
+    justify-content: center;
+    gap: 20px;
+    border: 2px solid white;
+}
+
+.inlineflex{
+    display: inline flex;
+    justify-content: center;
+    gap: 20px;
+    border: 2px dashed red;
+}
+
+
+.blockflex{
+    display: block flex;
+    justify-content: center;
+    gap: 20px;
+}
