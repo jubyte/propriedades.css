@@ -82,28 +82,3 @@ color: white;
         color: aliceblue;
         display: inline-block;
 }
-
-.flow-root{
-    display: flow-root;
-    border: 2px solid rgb(73, 9, 126);
-}
-
-.block-flow{
-    display: block flow-root;
-    border: 2px solid rgb(73, 9, 126);
-}
-
-.block-flow-root{
-    display: block flow-root;
-    border: 2px solid rgb(73, 9, 126);
-}
-
-.inline-flow{
-    display: inline flow-root;
-    border: 2px solid rgb(73, 9, 126);
-}
-
-.inline-flow-root{
-    display: inline flow-root;
-    border: 2px solid rgb(73, 9, 126);
-}
