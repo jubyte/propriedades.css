@@ -22,8 +22,7 @@ h1{
     margin: 20;
     background-color: rgba(73, 9, 126, 0.637);
     border-radius: 30px;
-    height: 1px;
-    width: 100px;
+
 }
 
 .flex{
@@ -58,7 +57,8 @@ footer{
 }
 .tabelinha{
 display: table;
-border-collapse: collapse;
+margin: 100px;
+ margin: 150px auto;
 }
 .linha{
 display: table-row;
