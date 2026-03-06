@@ -58,7 +58,8 @@ footer{
 }
 .tabelinha{
 display: table;
-border-collapse: collapse;
+margin: 100px;
+ margin: 150px auto;
 }
 .linha{
 display: table-row;
