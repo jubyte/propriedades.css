@@ -1,7 +1,6 @@
 #navbar{
     background-color: rgb(73, 9, 126);
     padding: 30px 20px;
-    text-align: center;
     color: aliceblue;
     margin: 0%;
     margin-bottom: 50px;
@@ -38,3 +37,21 @@ h3{
     color: aliceblue;
     font-family: "Archivo Black", sans-serif;
 }
+
+.navlogo{
+    text-align: left;
+    height: 100;
+    width: 100;
+
+}
+
+.navh1{
+    text-align: center;  
+    margin-left: 650;
+    margin-top: 10;
+}
+
+.alinhar{
+    display: flex;
+}
+
