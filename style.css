@@ -54,5 +54,30 @@ footer{
     justify-content: center;
     color: aliceblue;
     background-color: rgb(73, 9, 126);
-padding: 10;
+    padding: 10;
+}
+
+.flow-root{
+    display: flow-root;
+    border: 2px solid rgb(73, 9, 126);
+}
+
+.block-flow{
+    display: block flow-root;
+    border: 2px solid rgb(73, 9, 126);
+}
+
+.block-flow-root{
+    display: block flow-root;
+    border: 2px solid rgb(73, 9, 126);
+}
+
+.inline-flow{
+    display: inline flow-root;
+    border: 2px solid rgb(73, 9, 126);
+}
+
+.inline-flow-root{
+    display: inline flow-root;
+    border: 2px solid rgb(73, 9, 126);
 }
