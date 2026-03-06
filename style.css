@@ -37,21 +37,3 @@ h3{
     color: aliceblue;
     font-family: "Archivo Black", sans-serif;
 }
-
-.navlogo{
-    text-align: left;
-    height: 100;
-    width: 100;
-
-}
-
-.navh1{
-    text-align: center;  
-    margin-left: 650;
-    margin-top: 10;
-}
-
-.alinhar{
-    display: flex;
-}
-
