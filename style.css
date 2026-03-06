@@ -4,6 +4,7 @@
     color: aliceblue;
     margin: 0%;
     margin-bottom: 50px;
+    display: flex;
 }
 
 body{
@@ -36,4 +37,14 @@ h3{
     text-align: center;
     color: aliceblue;
     font-family: "Archivo Black", sans-serif;
+}
+
+.navlogo{
+    width: 100;
+    height: 100;
+}
+
+.navh1{
+    margin-left: 650;
+    margin-top: 10;
 }
