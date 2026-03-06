@@ -1,5 +1,5 @@
 #navbar{
-    background-color: rgb(126, 9, 9);
+    background-color: rgb(73, 9, 126);
     padding: 30px 20px;
     text-align: center;
     color: aliceblue;
@@ -9,6 +9,7 @@
 body{
     padding: 0px;
     margin: 0;
+    background-color: rgb(26, 26, 26);
 }
 
 h1{
