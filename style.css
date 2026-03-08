@@ -112,3 +112,13 @@ footer{
     color: aliceblue;
     margin-top: 30px;
 }
+
+.grade-container {
+    margin: 400px;
+    padding: 30px;
+    background-color: #6d3d74;
+    background-size: 30px 30px; 
+    border: 10px solid #3f3d3d;
+    border-radius: 30px; 
+    align-items: center;     /* Centraliza horizontalmente */
+}
