@@ -49,6 +49,32 @@ h1, h3 {
     margin-top: 50px;
 }
 
+
+.flex {
+    display: flex;
+    position: static;
+    justify-content: center;
+    margin-bottom: 200px;
+    margin-top: 50px;
+}
+
+.flex-exemplo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+    margin-top: 50px;
+    gap: 20px;
+    border: 1px solid rgba(148, 17, 255, 0.637);
+}
+
+.inline-flex{
+    display: inline-flex;
+}
+
+.inlineflex{
+    display: inline flex;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(2, auto);
