@@ -22,7 +22,16 @@ h1{
     margin: 20;
     background-color: rgba(73, 9, 126, 0.637);
     border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.quadrado img{
+    width: 35px;
+    height: auto;
+    display: block;
+    margin: auto;
 }
 
 .flex{
@@ -30,6 +39,30 @@ h1{
     justify-content: center;
     margin-bottom: 200px;
     margin-top: 50px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 30px;
+}
+
+.inline-grid{
+    display: inline-grid;
+    grid-template-columns: repeat(4, 120px);
+    gap: 30px;
+}
+
+.inlinegrid{
+display: inline grid;
+grid-template-columns: repeat(4, 120px);
+gap: 30px;
+}
+
+.block-grid{
+display: grid;
+grid-template-columns: repeat(4, 120px);
+gap: 30px;
 }
 
 h3{
@@ -55,30 +88,36 @@ footer{
     background-color: rgb(73, 9, 126);
     padding: 10;
 }
+
 .tabelinha{
-display: table;
-margin: 100px;
- margin: 150px auto;
+    display: table;
+    margin: 100px;
+    margin: 150px auto;
 }
+
 .linha{
-display: table-row;
+    display: table-row;
 }
+
 .celula{
-display: table-cell;
-border: 1px solid rgb(73, 9, 126);
-padding: 10px;
-text-align: center;
-color: white;
+    display: table-cell;
+    border: 1px solid rgb(73, 9, 126);
+    padding: 10px;
+    text-align: center;
+    color: white;
 }
+
 .livre{
     color: aliceblue;
     display: inline;
 }
+
 .bloqueado{
-        color: aliceblue;
-        display: block;
+    color: aliceblue;
+    display: block;
 }
+
 .Junção{
-        color: aliceblue;
-        display: inline-block;
+    color: aliceblue;
+    display: inline-block;
 }
