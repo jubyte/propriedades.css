@@ -104,3 +104,21 @@ h1, h3 {
 .inlineflowroot{
     display: inline flow-root;
 }
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    background-color: rgba(73, 9, 126, 0.637);
+    color: aliceblue;
+    padding: 10px;
+    margin-top: 50px;
+}
