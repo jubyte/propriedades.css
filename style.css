@@ -44,6 +44,8 @@ h1, h3 {
 
 .flex-exemplo{
     display: flex;
+    gap: 20px;
+    justify-content: center;
 }
 
 .inline-flex{
@@ -110,6 +112,22 @@ footer{
     text-align: end;
     color: aliceblue;
     margin-top: 30px;
+}
+
+.intro{
+    text-align: center;
+    color:white;
+    width:60%;
+    margin:40px auto 80px auto;
+}
+
+.intro h2{
+    font-family:"Archivo Black", sans-serif;
+}
+
+.intro p{
+    font-family:"Times New Roman", serif;
+    line-height:1.6;
 }
 
 .grade-container {
