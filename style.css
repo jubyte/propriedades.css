@@ -16,17 +16,30 @@ body {
     
 }
 
-h1, h3 {
+h1 {
     font-family: "Archivo Black", sans-serif;
     color: aliceblue;
     text-align: center;
+    text-shadow: 6px 5px 0px rgba(0,0,0,0.6);
 }
+
+h3 {
+    font-family: "Archivo Black", sans-serif;
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 6px 4px 0px rgba(0,0,0,0.6);
+} 
 
 .navlogo {
     position:relative;
     width: 100px;
     height: 100px;
-    
+    transition: 0.3s;
+
+}
+
+.navlogo:hover {
+    transform: scale(1.1);
 }
 
 .navh1 {
@@ -113,7 +126,6 @@ h1, h3 {
 }
 
 footer{
-
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -131,9 +143,16 @@ footer{
 }
 
 .navimg{
+    display: inline-block;
     text-align: end;
     color: aliceblue;
-    margin-top: 30px;
+    margin-top: 35px;
+    text-decoration: none; 
+    transition: 0.3s;
+}
+
+.navimg:hover {
+    transform: scale(1.1);
 }
 
 .oi-fixed{
@@ -153,6 +172,7 @@ footer{
 
 .intro h2{
     font-family:"Archivo Black", sans-serif;
+    text-shadow: 6px 5px 0px rgba(0,0,0,0.6);
 }
 
 .intro p{
