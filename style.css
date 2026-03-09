@@ -31,16 +31,15 @@ h1, h3 {
 .quadrado {
     padding: 50px;
     margin: 20px;
-    background-color: rgba(73, 9, 126, 0.637);
+    background-color:rgb(50, 0, 88);
     border-radius: 30px;
 }
 
 .flex {
     display: flex;
-    position: static;
     justify-content: center;
-    margin-bottom: 200px;
-    margin-top: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .flex-exemplo{
@@ -114,11 +113,11 @@ footer{
 }
 
 .grade-container {
-    margin: 400px;
+    margin: 75px;
     padding: 30px;
-    background-color: #6d3d74;
+    background-color:rgb(73, 9, 126);
     background-size: 30px 30px; 
-    border: 10px solid #3f3d3d;
-    border-radius: 30px; 
-    align-items: center;     /* Centraliza horizontalmente */
+    border: 2px solid rgb(203, 179, 223);
+    border-radius: 15px; 
+    height: auto   
 }
