@@ -28,7 +28,31 @@ h3 {
     color: aliceblue;
     text-align: center;
     text-shadow: 6px 4px 0px rgba(0,0,0,0.6);
+    position: relative;     
+    display: table;         
+    margin: 30px auto;      
 } 
+
+h3::after {
+    content: "HTML";       
+    position: absolute;
+    top: -12px;
+    right: -35px;
+    background-color: rgb(115, 66, 155);
+    color: white;
+    font-size: 10px;
+    padding: 2px 6px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 0px #000; /* Sombra focada */
+    
+    /* Animação */
+    transition: 0.3s;
+}
+
+/* Efeito de aumentar quando passa o mouse no título */
+h3:hover::after {
+    transform: scale(1.2) rotate(5deg);
+}
 
 .navlogo {
     position:relative;
