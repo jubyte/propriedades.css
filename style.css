@@ -105,12 +105,12 @@ h3 {
     display: table-cell;
 }
 
-.flow-root{
+.flowroot{
     display: flow-root;
 }
 
 .blockflow{
-    display: flow-root;
+    display: block flow-root;
 }
 
 .blockflowroot{
@@ -118,11 +118,13 @@ h3 {
 }
 
 .inlineflow{
-    display: inline flow-root;
+    display: flex;
+    justify-content: center;
 }
 
 .inlineflowroot{
-    display: inline flow-root;
+    display: flex;
+    justify-content: center;
 }
 
 footer{
