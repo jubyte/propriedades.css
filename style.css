@@ -65,7 +65,6 @@ h3 {
     justify-content: center;
     margin-top: 40px;
     margin-bottom: 40px;
-    display: block;
 }
 
 .flex-exemplo{
@@ -150,10 +149,10 @@ footer{
 
 .navimg{
     display: inline-block;
-    text-align: end;
+    position: relative; 
     color: aliceblue;
-    margin-top: 35px;
-    text-decoration: none; 
+    margin-top: 30px;
+    text-decoration: none;
     transition: 0.3s;
     
 }
@@ -213,28 +212,44 @@ footer{
     border-radius: 30px;
     box-shadow:0 10px 15px rgba(0,0,0,0.6);
     display: inline;
+    transition:0.3s;
 }
+
+.quadrado_1:hover{
+    transform:scale(1.1);
+}
+
 .junção{
-        display: inline-block;
-        color: aliceblue;
-         width: 200px;
+    display: inline-block;
+    color: aliceblue;
+    width: 200px;
 
 }
 .quadrado2{
-     padding: 50px;
+    padding: 50px;
     margin: 20px;
     background-color:rgb(50, 0, 88);
     border-radius: 30px;
     box-shadow:0 10px 15px rgba(0,0,0,0.6);
     display: inline-block;
+    transition:0.3s;
+
 }
+
+.quadrado2:hover{
+    transform:scale(1.1);
+}
+
 .etiqueta{
-      position: absolute;
-    top: 10px;
-    right: 10px;
-    color: aliceblue;
-    padding: 5px 10px;
-    border-radius: 10px;
-    font-size: 12px;
-    font-family: "Archivo Black", sans-serif;
+    position: absolute;   
+    top: -15px;          
+    right: -25px;         
+    background-color:rgb(67, 22, 102);
+    color: white;
+    padding: 2px 6px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 3px;
+    box-shadow: 2px 2px 0px #000; 
+    transition: 0.3s;
 }
