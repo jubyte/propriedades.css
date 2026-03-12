@@ -5,15 +5,15 @@
     margin: 0;
     margin-bottom: 50px;
     display: flex;
-    position:sticky;
+    position: sticky;
     top:0;
+    z-index: 1000;
 }
 
 body {
     padding: 0;
     margin: 0;
     background-color: rgb(26, 26, 26);
-    
 }
 
 h1 {
@@ -43,13 +43,10 @@ h3::after {
     font-size: 10px;
     padding: 2px 6px;
     border-radius: 3px;
-    box-shadow: 2px 2px 0px #000; /* Sombra focada */
-    
-    /* Animação */
+    box-shadow: 2px 2px 0px #000;
     transition: 0.3s;
 }
 
-/* Efeito de aumentar quando passa o mouse no título */
 h3:hover::after {
     transform: scale(1.2) rotate(5deg);
 }
@@ -151,7 +148,9 @@ h3:hover::after {
 }
 
 .inlineflowroot{
-    display: inline flow-root;
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
 }
 
 footer{
@@ -186,7 +185,7 @@ footer{
 }
 
 .oi-fixed{
-    position:fixed;
+    position: fixed;
     bottom:20px;
     right:20px;
     width:175px;
@@ -276,4 +275,8 @@ footer{
     border-radius: 3px;
     box-shadow: 2px 2px 0px #000; 
     transition: 0.3s;
+}
+
+#topo{
+    height: 700px;
 }
