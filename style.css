@@ -153,13 +153,12 @@ justify-content: center;
 
 .inlineflow{
     display: inline flow-root;
-
+    margin-left: 43%;
 }
 
 .inlineflowroot{
     display: inline flow-root;
-    justify-content: center;
-    width: 100%;
+    margin-left: 43%;
 }
 
 footer{
