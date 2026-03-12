@@ -21,32 +21,35 @@ h1 {
     color: aliceblue;
     text-align: center;
     text-shadow: 6px 5px 0px rgba(0,0,0,0.6);
+ 
 }
 
 h3 {
     font-family: "Archivo Black", sans-serif;
     color: aliceblue;
     text-align: center;
-    text-shadow: 6px 4px 0px rgba(0,0,0,0.6);
-    position: relative;     
-    display: table;         
+    text-shadow: 6px 4px 0px rgba(0,0,0,0.6);       
     margin: 30px auto;      
 } 
 
-h3::after {
+h2::after {
     content: "HTML";       
     position: absolute;
     top: -12px;
-    right: -35px;
+    right: -45px;
     background-color: rgb(115, 66, 155);
     color: white;
     font-size: 10px;
     padding: 2px 6px;
     border-radius: 3px;
-    box-shadow: 2px 2px 0px #000;
+    box-shadow: 2px 2px 0px #000; /* Sombra focada */
+        text-shadow: none;
+    
+    /* Animação */
     transition: 0.3s;
 }
 
+/* Efeito de aumentar quando passa o mouse no título */
 h3:hover::after {
     transform: scale(1.2) rotate(5deg);
 }
@@ -107,6 +110,13 @@ h3:hover::after {
     grid-template-columns: repeat(2, auto);
 }
 
+.block-grid{
+display: block grid;
+grid-template-columns: repeat(4, auto);
+gap: 30px;
+justify-content: center;
+}
+
 .inline-grid {
     display: inline-grid;
     grid-template-columns: repeat(4, 120px);
@@ -142,13 +152,12 @@ h3:hover::after {
 }
 
 .inlineflow{
-    display: inline-flex;
-    justify-content: center;
-    width: 100%;
+    display: inline flow-root;
+
 }
 
 .inlineflowroot{
-    display: inline-flex;
+    display: inline flow-root;
     justify-content: center;
     width: 100%;
 }
@@ -194,14 +203,18 @@ footer{
 
 .intro{
     text-align: center;
-    color:white;
-    width:60%;
-    margin:40px auto 80px auto;
+    color: white;
+    width: 60%;
+    margin: 40px auto 80px auto;
 }
 
 .intro h2{
-    font-family:"Archivo Black", sans-serif;
+    font-family: "Archivo Black", sans-serif;
+    position: relative;     
+    display: table;  
+    margin: 0 auto; 
     text-shadow: 6px 5px 0px rgba(0,0,0,0.6);
+
 }
 
 .intro p{
@@ -279,4 +292,7 @@ footer{
 
 #topo{
     height: 700px;
+}
+.block{
+    display: block;
 }
