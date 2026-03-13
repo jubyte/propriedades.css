@@ -193,6 +193,7 @@ footer{
     bottom:20px;
     right:20px;
     width:175px;
+    z-index: 1000;
 }
 
 .intro{
