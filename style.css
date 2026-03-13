@@ -21,7 +21,6 @@ h1 {
     color: aliceblue;
     text-align: center;
     text-shadow: 6px 5px 0px rgba(0,0,0,0.6);
- 
 }
 
 h3 {
@@ -42,14 +41,11 @@ h2::after {
     font-size: 10px;
     padding: 2px 6px;
     border-radius: 3px;
-    box-shadow: 2px 2px 0px #000; /* Sombra focada */
-        text-shadow: none;
-    
-    /* Animação */
+    box-shadow: 2px 2px 0px #000; 
+    text-shadow: none;
     transition: 0.3s;
 }
 
-/* Efeito de aumentar quando passa o mouse no título */
 h3:hover::after {
     transform: scale(1.2) rotate(5deg);
 }
@@ -59,7 +55,6 @@ h3:hover::after {
     width: 100px;
     height: 100px;
     transition: 0.3s;
-
 }
 
 .navlogo:hover {
@@ -111,10 +106,10 @@ h3:hover::after {
 }
 
 .block-grid{
-display: block grid;
-grid-template-columns: repeat(4, auto);
-gap: 30px;
-justify-content: center;
+    display: block grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 30px;
+    justify-content: center;
 }
 
 .inline-grid {
@@ -186,7 +181,6 @@ footer{
     margin-top: 30px;
     text-decoration: none;
     transition: 0.3s;
-    
 }
 
 .navimg:hover {
@@ -198,7 +192,6 @@ footer{
     bottom:20px;
     right:20px;
     width:175px;
-
 }
 
 .intro{
@@ -258,8 +251,6 @@ footer{
 .junção{
     display: inline-block;
     color: aliceblue;
-    /* width: 200px;         ---talvez tenha q colocar, mas os quadrados ficam retangulos e fora do pai*/
-
 }
 .quadrado2{
     display: inline-block;
@@ -269,7 +260,6 @@ footer{
     border-radius: 30px;
     box-shadow:0 10px 15px rgba(0,0,0,0.6);
     transition:0.3s;
-
 }
 
 .quadrado2:hover{
