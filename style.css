@@ -1,7 +1,7 @@
 #navbar {
     background-color: rgb(73, 9, 126);
     padding: 30px 20px;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     margin: 0;
     margin-bottom: 50px;
     display: flex;
@@ -18,14 +18,14 @@ body {
 
 h1 {
     font-family: "Archivo Black", sans-serif;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     text-align: center;
     text-shadow: 6px 5px 0px rgba(0,0,0,0.6);
 }
 
 h3 {
     font-family: "Archivo Black", sans-serif;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     text-align: center;
     text-shadow: 6px 4px 0px rgba(0,0,0,0.6);       
     margin: 30px auto;      
@@ -121,7 +121,7 @@ h3:hover::after {
 .tabelinha {
     display: table;
     margin: 0 auto;
-    border: 2px solid aliceblue; 
+    border: 2px solid rgb(255, 255, 255);
 }
 
 .linha {
@@ -131,8 +131,8 @@ h3:hover::after {
 .celula {
     display: table-cell;
     padding: 10px 20px;
-    border: 1px solid aliceblue; 
-    color: aliceblue;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
 }
 
 .flowroot{
@@ -177,7 +177,7 @@ footer{
 .navimg{
     display: inline-block;
     position: relative; 
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     margin-top: 30px;
     text-decoration: none;
     transition: 0.3s;
@@ -228,11 +228,11 @@ footer{
     display: block;
     size: 10px;
     height: 20px;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
 }
 .livre{
     display: inline;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
 }
 .quadrado_1{
     padding: 50px;
@@ -250,7 +250,7 @@ footer{
 
 .junção{
     display: inline-block;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
 }
 .quadrado2{
     display: inline-block;
@@ -288,6 +288,6 @@ footer{
 }
 
 p{
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
