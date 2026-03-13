@@ -1,7 +1,7 @@
 #navbar {
     background-color: rgb(73, 9, 126);
     padding: 30px 20px;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     margin: 0;
     margin-bottom: 50px;
     display: flex;
@@ -18,17 +18,16 @@ body {
 
 h1 {
     font-family: "Archivo Black", sans-serif;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: 6px 5px 0px rgba(0,0,0,0.6);
- 
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.6);
 }
 
 h3 {
     font-family: "Archivo Black", sans-serif;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: 6px 4px 0px rgba(0,0,0,0.6);       
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.6);       
     margin: 30px auto;      
 } 
 
@@ -42,14 +41,11 @@ h2::after {
     font-size: 10px;
     padding: 2px 6px;
     border-radius: 3px;
-    box-shadow: 2px 2px 0px #000; /* Sombra focada */
-        text-shadow: none;
-    
-    /* Animação */
+    box-shadow: 2px 2px 0px #000; 
+    text-shadow: none;
     transition: 0.3s;
 }
 
-/* Efeito de aumentar quando passa o mouse no título */
 h3:hover::after {
     transform: scale(1.2) rotate(5deg);
 }
@@ -59,7 +55,6 @@ h3:hover::after {
     width: 100px;
     height: 100px;
     transition: 0.3s;
-
 }
 
 .navlogo:hover {
@@ -127,7 +122,7 @@ h3:hover::after {
 .tabelinha {
     display: table;
     margin: 0 auto;
-    border: 2px solid aliceblue; 
+    border: 2px solid rgb(255, 255, 255);
 }
 
 .linha {
@@ -137,8 +132,8 @@ h3:hover::after {
 .celula {
     display: table-cell;
     padding: 10px 20px;
-    border: 1px solid aliceblue; 
-    color: aliceblue;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
 }
 
 .flowroot{
@@ -150,7 +145,7 @@ h3:hover::after {
 }
 
 .blockflowroot{
-    display: flow-root;
+    display: block flow-root;
 }
 
 .inlineflow{
@@ -183,11 +178,10 @@ footer{
 .navimg{
     display: inline-block;
     position: relative; 
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     margin-top: 30px;
     text-decoration: none;
     transition: 0.3s;
-    
 }
 
 .navimg:hover {
@@ -199,7 +193,6 @@ footer{
     bottom:20px;
     right:20px;
     width:175px;
-
 }
 
 .intro{
@@ -236,11 +229,11 @@ footer{
     display: block;
     size: 10px;
     height: 20px;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
 }
 .livre{
     display: inline;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
 }
 .quadrado_1{
     padding: 50px;
@@ -258,9 +251,7 @@ footer{
 
 .junção{
     display: inline-block;
-    color: aliceblue;
-    /* width: 200px;         ---talvez tenha q colocar, mas os quadrados ficam retangulos e fora do pai*/
-
+    color: rgb(255, 255, 255);
 }
 .quadrado2{
     display: inline-block;
@@ -270,7 +261,6 @@ footer{
     border-radius: 30px;
     box-shadow:0 10px 15px rgba(0,0,0,0.6);
     transition:0.3s;
-
 }
 
 .quadrado2:hover{
@@ -299,6 +289,8 @@ footer{
 }
 
 p{
-    color: aliceblue;
+    font-family: "Archivo Black", sans-serif;
+    color: rgb(255, 255, 255);
     text-align: center;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.6);
 }
