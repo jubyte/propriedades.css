@@ -257,16 +257,16 @@ footer{
 .junção{
     display: inline-block;
     color: aliceblue;
-    width: 200px;
+    /* width: 200px;         ---talvez tenha q colocar, mas os quadrados ficam retangulos e fora do pai*/
 
 }
 .quadrado2{
+    display: inline-block;
     padding: 50px;
     margin: 20px;
     background-color:rgb(50, 0, 88);
     border-radius: 30px;
     box-shadow:0 10px 15px rgba(0,0,0,0.6);
-    display: inline-block;
     transition:0.3s;
 
 }
@@ -294,4 +294,8 @@ footer{
 }
 .block{
     display: block;
+}
+
+p{
+    color: aliceblue;
 }
