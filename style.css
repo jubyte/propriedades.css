@@ -288,6 +288,7 @@ footer{
 }
 
 p{
+    font-weight: lighter;
     font-family: "Archivo Black", sans-serif;
     color: rgb(255, 255, 255);
     text-align: center;
